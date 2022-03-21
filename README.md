@@ -10,3 +10,4 @@ As per instruction by the teacher the following documents were added:
     5)Java code
     6) activity timeline
 
+Instructions document for the assesment was also added in the repository
