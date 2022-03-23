@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="Diagnosis"
+    tools:context=".MainActivity10">
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="343dp"
+        android:layout_height="460dp"
+        android:text="Thank you for your submission. \n \nYour Doctor will reply to you as soon as possible. \n \nExpect a reply within 3-5 days.  \n \nIf you do not get a response within that timeframe please send us a message at: meditechapp@gmail.com. \n \nIf you require Immediate attention please call 67-400-57-899"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="135dp" />
+
+    <Button
+        android:id="@+id/button34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Diagnosis"
+        android:text="Check for response from the doctor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView23" />
+</androidx.constraintlayout.widget.ConstraintLayout>
